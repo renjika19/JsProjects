@@ -2,6 +2,8 @@
 <html>
 <head>
     <script src="script/cars.js"></script>
+
+
 </head>
 <p id="name">
 
@@ -13,7 +15,30 @@
     <button onclick="nameInput()">Check</button>
 
 
-    <button onclick="test()">Check</button>
+    <button onclick="food()">Check</button>
+
+    <button onclick="show()">Show Name</button>
+    <p id="name"></p>
+
+    <div onmouseover="mOver(this)"
+        onmouseout="mOut(this)"
+        style="background-color:red;width:120px;height:120px;padding:120">
+        Mouse here here
+    </div>
+
+    <button onclick="myFunction()">Try Us</button>
+    <p id="hemo"></p>
+
+
+    
+
+<form name="myForm" action="01FirstJSDate.html"
+        onsubmit="return validateForm()"
+        method="POST">
+
+Name:   <input type="text" name="fname">
+        <input type="submit" value="Submit">
+</form>
 
 
     
